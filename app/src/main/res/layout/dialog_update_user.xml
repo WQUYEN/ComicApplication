@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Username: "/>
+    <EditText
+        android:id="@+id/dialog_profile_ed_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Password: "/>
+
+    <EditText
+        android:id="@+id/dialog_profile_ed_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Email: "/>
+
+    <EditText
+        android:id="@+id/dialog_profile_ed_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Fullname: "/>
+
+    <EditText
+        android:id="@+id/dialog_profile_ed_Fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Full Name" />
+    <EditText
+        android:id="@+id/dialog_profile_ed_AvatarUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Avatar Url" />
+
+
+
+</LinearLayout>
